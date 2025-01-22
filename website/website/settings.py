@@ -22,11 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-aa&ps53x%&k+hk5w3k#e!7biim700sb#5k*5dwd%-v)ba1q3v*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
+    '*',
+    'https://website-orpin-pi-24.vercel.app/',
 ]
 
 # Application definition
